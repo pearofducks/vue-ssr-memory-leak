@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/server-renderer": "^3.0.0",
+    "vue": "^3.0.0"
+  }
+}
