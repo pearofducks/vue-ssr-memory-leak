@@ -1,3 +1,4 @@
+// const http = require('http')
 const { createSSRApp, h } = require('vue')
 const { renderToString } = require('@vue/server-renderer')
 
@@ -39,3 +40,9 @@ const loop = async () => {
 
 loop()
 
+// const server = http.createServer(async (req, res) => {
+//   const content = await run()
+//   res.end(content)
+// })
+
+// server.listen(3000)
